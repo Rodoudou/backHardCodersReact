@@ -18,6 +18,6 @@ mongoose.connect(process.env.MONGODB, {
 
 app.use(routes);
 
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log(`le serveur est lancé sur le port : ${PORT}`);
 })
