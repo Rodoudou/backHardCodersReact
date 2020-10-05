@@ -14,11 +14,11 @@ router.post('/test', postTest);
 
 router.post('/room', catchErrors(addRoom));
 
-router.get('/:id', catchErrors(getRoom));
-
-router.get('/rooms', catchErrors(getRooms));
+router.get('/room/:id', catchErrors(getRoom));
 
 router.patch('/room/:id', catchErrors(updateRoom));
+
+router.get('/rooms', catchErrors(getRooms));
 
 router.delete('/room/:id', catchErrors(deleteRoom));
 
