@@ -1,7 +1,7 @@
 import RoomModel from "../models/roomModels.js";
 
 export const getTest = (req, res) => {
-  res.send("hello Redouane Amr");
+  res.send({name: "Hardcoders"});
 };
 
 export const postTest = (req, res) => {
