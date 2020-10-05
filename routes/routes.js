@@ -5,7 +5,7 @@ import {catchErrors} from './../helpers.js';
 const router = express.Router();
 
 router.get('/', (req,res)=>{
-    res.send('hello Redouane Amr');
+    res.send('hello Redouane Amrani');
 });
 
 router.get('/test', getTest);
